@@ -159,6 +159,7 @@
     <Compile Include="Models\Role.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\StoreHomeViewModel.cs" />
     <Compile Include="Models\UserAccount.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
