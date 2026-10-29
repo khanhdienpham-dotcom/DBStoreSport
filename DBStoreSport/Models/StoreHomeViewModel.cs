@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using DBStoreSport.Models;
 
-namespace DBSportStore.Models
+namespace DBStoreSport.Models
 {
     public class StoreHomeViewModel
     {
@@ -18,7 +19,7 @@ namespace DBSportStore.Models
         // Từ khóa người dùng đang tìm kiếm.
         public string SearchTerm { get; set; }
         // Từ khóa người dùng đang tìm kiếm.
-        public string SearchTerm { get; set; }
+      
         // Trang hiện tại.
         public int CurrentPage { get; set; }
 
